@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+pre {
+  background-color: #242424;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  color: white;
+  white-space: pre-wrap; /* Keeps formatting but allows wrapping */
+  word-wrap: break-word;
+  max-width: 90%;
+  margin-top: 15px;
+  overflow-y: auto;
+  max-height: 250px; /* Adds scrolling for long responses */
+}
+
+
+
+.loading{
+  color: blue;
+}
